@@ -1,0 +1,9 @@
+climate:
+  - platform: heatpumpir
+    name: 'Heat Pump'
+    protocol: 'fujitsu_awyz'
+    state_topic: '/heatpump/state'
+    command_topic: '/heatpump/cmd'
+    temperature_state_topic: '/heatpump/temperature/state'
+    min_temp: 18
+    max_temp: 30
